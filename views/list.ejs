@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>참가자확인</title>
+</head>
+<body>
+  <h2><strong>ADMIN PAGE</strong></h2>
+<% for (var i = 0; i < index.length; i ++) { %>
+  <h4>아이디:<%= index[i].아이디 %></h4>
+  <p>날짜:<%= index[i].날짜 %></p>
+<% } %>
+</body>
+</html>
